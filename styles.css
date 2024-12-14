@@ -18,3 +18,13 @@ ul {
   li:hover {
       color: white;
   }
+
+/* Class */
+
+.RentSection {
+  display: none;
+}
+
+.MortgageSection {
+  display: none;
+}
