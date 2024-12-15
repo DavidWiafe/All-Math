@@ -2,7 +2,7 @@
 var HomeCategory = document.querySelector('#HomeCategory');
 // grab both Rent & Mort DIV sections
 const RentSection = document.querySelector('.RentSection');
-var MortgageSection = document.querySelector('.MortgageSection');
+const MortgageSection = document.querySelector('.MortgageSection');
 // Rent Calc Button
 let RentCalcButton = document.querySelector('#RentCalcButton');
 var RentYearCalc = document.querySelector('#RentYearCalc');

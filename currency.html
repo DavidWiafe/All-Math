@@ -65,6 +65,52 @@
     <div id="result"></div>
   </div>
 
+  <div class="CurrencyRateSection">
+    
+    <h1>Currency Table</h1>
+    <!--<label>From: </label>-->
+    <select id="CurrencyToConvert">
+        <option value="USD">USD</option>
+        <option value="CAD">CAD</option>
+        <option value="EUR">EUR</option>
+        <option value="GBP">GBP</option>
+      </select>
+    <input type="number" id="OrgCurrencyAmount" placeholder="Enter amount" />
+    <button id="CalculateRateButton">Click</button>
+    <table>
+      <thead>
+        <tr>
+          <th>Currency</th>
+          <th>Rate</th>
+          <th>Amount</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>CAD</td>
+          <td id="CAD_rate">1.25</td>
+          <td id="CAD_value">--</td>
+        </tr>
+        <tr>
+          <td>USD</td>
+          <td id="USD_rate">1.00</td>
+          <td id="USD_value">--</td>
+        </tr>
+        <tr>
+          <td>EUR</td>
+          <td id="EUR_rate">0.85</td>
+          <td id="EUR_value">--</td>
+        </tr>
+        <tr>
+          <td>GBP</td>
+          <td id="GBP_rate">0.75</td>
+          <td id="GBP_value">--</td>
+        </tr>
+      </tbody>
+    </table>
+
+  </div>
+
   <script src="converter.js"></script>
 </body>
 </html>
